@@ -1,5 +1,5 @@
 {
-    "image_name": "cyberdojofoundation/jq_approvals:1adb74b",
+    "image_name": "cyberdojofoundation/jq_approvals:9b3e5bd",
     "display_name": "jq, approvals",
     "visible_filenames": [
         "hiker.jq",
