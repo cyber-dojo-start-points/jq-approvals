@@ -1,6 +1,6 @@
 {
     "image_name": "cyberdojofoundation/jq_approvals:9b3e5bd",
-    "display_name": "jq, approvals",
+    "display_name": "jq 1.7.1, approvals",
     "visible_filenames": [
         "hiker.jq",
         "test_hiker.jq",
