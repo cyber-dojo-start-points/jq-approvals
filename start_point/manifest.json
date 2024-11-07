@@ -1,5 +1,5 @@
 {
-    "image_name": "cyberdojofoundation/jq_approvals:9b3e5bd",
+    "image_name": "ghcr.io/cyber-dojo-languages/jq_approvals:fd90648",
     "display_name": "jq 1.7.1, approvals",
     "visible_filenames": [
         "hiker.jq",
