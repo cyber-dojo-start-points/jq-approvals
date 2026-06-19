@@ -1,6 +1,14 @@
 {
     "image_name": "ghcr.io/cyber-dojo-languages/jq_approvals:6dbf401",
     "display_name": "jq 1.8.1, approvals",
+    "language": [
+      "jq",
+      "1.8.1"
+    ],
+    "test_framework": [
+      "approvals",
+      ""
+    ],
     "visible_filenames": [
         "hiker.jq",
         "test_hiker.jq",
