@@ -1,4 +1,4 @@
-[![Github Action (main)](https://github.com/cyber-dojo-start-points/jq-approvals/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-start-points/jq-approvals/actions)
+[![GitHub CI](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
 
 ### display_name="jq 1.8.1, approvals"
 ### image_name=[ghcr.io/cyber-dojo-languages/jq_approvals](https://github.com/cyber-dojo-languages/jq-approvals/pkgs/container/jq_approvals)
