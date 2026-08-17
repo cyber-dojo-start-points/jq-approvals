@@ -1,5 +1,5 @@
 {
-    "image_name": "ghcr.io/cyber-dojo-languages/jq_approvals:c2b08a8",
+    "image_name": "ghcr.io/cyber-dojo-languages/jq_approvals:5a132b3",
     "display_name": "jq 1.8.1, approvals",
     "language": [
       "jq",
