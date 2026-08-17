@@ -1,5 +1,5 @@
 {
-    "image_name": "ghcr.io/cyber-dojo-languages/jq_approvals:6dbf401",
+    "image_name": "ghcr.io/cyber-dojo-languages/jq_approvals:c2b08a8",
     "display_name": "jq 1.8.1, approvals",
     "language": [
       "jq",
@@ -15,6 +15,7 @@
         "test_hiker.test_life_the_universe_and_everything.approved",
         "cyber-dojo.sh"
     ],
+    "rag_lambda": "red_amber_green.rb",
     "filename_extension": [".jq"],
     "max_seconds": 10,
     "tab_size": 4
