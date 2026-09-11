@@ -14,7 +14,7 @@ red_amber_green_test() {
     local -r github=raw.githubusercontent.com
     local -r org=cyber-dojo-start-points
     local -r repo=shared-scripts
-    local -r branch=master
+    local -r branch=main
     local -r url="https://${github}/${org}/${repo}/${branch}/${name}"
     echo >&2 "Did not find executable ${name} on the PATH"
     echo >&2 "Attempting to curl it from ${url}"
