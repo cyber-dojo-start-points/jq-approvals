@@ -1,0 +1,10 @@
+{
+  "max_output_lines": 16,
+  "match_counts": {
+    "^test_hiker\\.test_life_the_universe_and_everything:  passed$": 2,
+    "hiker_checks": 0,
+    "Compiling Error!": 0,
+    "failed": 0
+  },
+  "truncated": false
+}

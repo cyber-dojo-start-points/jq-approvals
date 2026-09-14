@@ -1,0 +1,10 @@
+{
+  "match_counts": {
+    "^test_hiker\\.test_life_the_universe_and_everything:  Compiling Error!$": 1,
+    "^jq: error: answerr/0 is not defined at .*test_hiker\\.jq, line 4, column 5:$": 1,
+    "^jq: 1 compile error$": 1,
+    "passed": 0,
+    "failed": 0
+  },
+  "truncated": false
+}

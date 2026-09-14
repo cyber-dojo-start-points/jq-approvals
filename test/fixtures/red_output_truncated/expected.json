@@ -1,0 +1,11 @@
+{
+  "match_counts": {
+    "^test_hiker\\.test_life_the_universe_and_everything:  failed$": 1,
+    "^----- DIFF -----$": 1,
+    "^@@ -1 \\+1,20000 @@$": 1,
+    "^\\+0$": 1,
+    "^\\+19999$": 0,
+    "^----------------$": 0
+  },
+  "truncated": true
+}

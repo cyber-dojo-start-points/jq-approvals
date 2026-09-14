@@ -1,0 +1,10 @@
+{
+  "match_counts": {
+    "^test_hiker\\.test_life_the_universe_and_everything:  passed$": 1,
+    "^test_the_answer_is_not_the_question:  failed$": 1,
+    "^-false$": 1,
+    "^\\+true$": 1,
+    "test_the_answer_is_two_digits_long": 0
+  },
+  "truncated": false
+}

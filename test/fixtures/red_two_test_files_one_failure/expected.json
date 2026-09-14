@@ -1,0 +1,9 @@
+{
+  "match_counts": {
+    "^test_answer_size\\.test_the_answer_is_two_digits_long:  passed$": 1,
+    "^test_hiker\\.test_life_the_universe_and_everything:  failed$": 1,
+    "^-42$": 1,
+    "^\\+54$": 1
+  },
+  "truncated": false
+}

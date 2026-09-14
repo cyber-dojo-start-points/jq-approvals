@@ -1,0 +1,10 @@
+{
+  "match_counts": {
+    "^test_hiker\\.test_a_runtime_error:  Compiling Error!$": 1,
+    "^jq: error \\(at <unknown>\\): number \\(6\\) and number \\(0\\) cannot be divided because the divisor is zero$": 1,
+    "test_b_wrong_value": 0,
+    "passed": 0,
+    "failed": 0
+  },
+  "truncated": false
+}

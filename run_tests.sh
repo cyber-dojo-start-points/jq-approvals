@@ -1,14 +1,15 @@
 #!/bin/bash -Eeu
 
-readonly MY_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+readonly MY_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 readonly TMP_DIR="$(mktemp -d ~/tmp.cyber-dojo-start-points.XXXXXXX)"
-remove_tmp_dir() { rm -rf "${TMP_DIR}" >/dev/null; }
-# trap remove_tmp_dir INT EXIT
+remove_tmp_dir() { rm -rf "${TMP_DIR}" > /dev/null; }
+trap remove_tmp_dir INT EXIT
 
-red_amber_green_test() {
+red_amber_green_test()
+{
   local -r name=red_amber_green_test.sh
   if [ -x "$(command -v ${name})" ]; then
-    echo >&2 "Found ${name} on the PATH"
+    >&2 echo "Found ${name} on the PATH"
     echo "${name}"
   else
     local -r github=raw.githubusercontent.com
@@ -16,12 +17,15 @@ red_amber_green_test() {
     local -r repo=shared-scripts
     local -r branch=main
     local -r url="https://${github}/${org}/${repo}/${branch}/${name}"
-    echo >&2 "Did not find executable ${name} on the PATH"
-    echo >&2 "Attempting to curl it from ${url}"
+    >&2 echo "Did not find executable ${name} on the PATH"
+    >&2 echo "Attempting to curl it from ${url}"
     curl --fail --output "${TMP_DIR}/${name}" --silent "${url}"
     chmod 700 "${TMP_DIR}/${name}"
     echo "${TMP_DIR}/${name}"
   fi
 }
 
-"$(red_amber_green_test)" "${1:-${MY_DIR}}"
+# Every argument is passed straight through, so --lights-only, --matrix-only
+# and -h all work here. This repo is the one checked unless an argument names
+# another.
+"$(red_amber_green_test)" "${MY_DIR}" "$@"

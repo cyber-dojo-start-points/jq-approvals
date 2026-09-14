@@ -1,0 +1,10 @@
+{
+  "match_counts": {
+    "^test_hiker\\.test_life_the_universe_and_everything:  Compiling Error!$": 1,
+    "^jq: error: syntax error, .* at .*hiker\\.jq, line 2, column 10:$": 1,
+    "^jq: 1 compile error$": 1,
+    "passed": 0,
+    "failed": 0
+  },
+  "truncated": false
+}

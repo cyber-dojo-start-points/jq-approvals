@@ -1,0 +1,10 @@
+{
+  "match_counts": {
+    "^test_hiker\\.test_the_answer:  failed $": 1,
+    "^test_hiker\\.test_the_answer: Approved file test_hiker\\.test_the_answer\\.approved not found$": 1,
+    "^  Received output is:42$": 1,
+    "DIFF": 0,
+    "passed": 0
+  },
+  "truncated": false
+}
