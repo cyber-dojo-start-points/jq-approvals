@@ -1,22 +1,24 @@
 {
-    "image_name": "ghcr.io/cyber-dojo-languages/jq_approvals:5a132b3",
-    "display_name": "jq 1.8.1, approvals",
-    "language": [
-      "jq",
-      "1.8.1"
-    ],
-    "test_framework": [
-      "approvals",
-      ""
-    ],
-    "visible_filenames": [
-        "hiker.jq",
-        "test_hiker.jq",
-        "test_hiker.test_life_the_universe_and_everything.approved",
-        "cyber-dojo.sh"
-    ],
-    "rag_lambda": "red_amber_green.rb",
-    "filename_extension": [".jq"],
-    "max_seconds": 10,
-    "tab_size": 4
+  "image_name": "ghcr.io/cyber-dojo-languages/jq_approvals:3b80bfe@sha256:cd012890a04363bdc7d80f9a8bf6b3ab454718801945e59abe266a2220f63fff",
+  "display_name": "jq 1.8.2, approvals",
+  "language": [
+    "jq",
+    "1.8.2"
+  ],
+  "test_framework": [
+    "approvals",
+    ""
+  ],
+  "visible_filenames": [
+    "hiker.jq",
+    "test_hiker.jq",
+    "test_hiker.test_life_the_universe_and_everything.approved",
+    "cyber-dojo.sh"
+  ],
+  "rag_lambda": "red_amber_green.rb",
+  "filename_extension": [
+    ".jq"
+  ],
+  "max_seconds": 10,
+  "tab_size": 4
 }
